@@ -14,7 +14,7 @@
 
 
 .Maps {
-  width: 75%;
+  width: 66%;
   height: 440px;
   display: flex;
   flex-direction: row;
@@ -34,7 +34,7 @@
 }
 
 .outMap {
-  width: 45%;
+  width: 46%;
   height: 100%;
   background-image: url(./Maps/outlineMap.png);
   background-repeat: no-repeat;
@@ -59,8 +59,9 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-color: white;
   width: 40%;
-  height: 100px;
+  height: 150px;
 }
 
 .formGroup {
@@ -75,7 +76,7 @@
 
 .formButton {
   height: 30px;
-  width: 60x;
+  width: 80x;
   border: 2px solid #606c38;
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
@@ -84,12 +85,15 @@
 .sourceForm {
   width: 100%;
   display: flex;
+  font-size: larger;
   justify-content: space-between;
+  /* background-color: black; */
 }
 
 .destinationForm {
   width: 100%;
   display: flex;
+  font-size: larger;
   justify-content: space-between;
 }
 

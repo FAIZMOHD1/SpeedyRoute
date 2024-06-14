@@ -8,21 +8,6 @@ import Routes from './routes';
 const App = () => {
   const [data, setData] = useState([]);
   const [display, setDisplay] = useState(false);
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch('http://127.0.0.1:5000/api/data'); // Replace with your Flask API endpoint
-  //       const jsonData = await response.json();
-  //       setData(jsonData);
-  //       console.log(jsonData);
-  //     } catch (error) {
-  //       console.error('Error:', error);
-  //     }
-  //   };
-
-  //   fetchData();
-  // }, []);
   const onsubmitHandler = async (e) => {
     e.preventDefault();
     const a = e.target[0].value
@@ -42,18 +27,13 @@ const App = () => {
 
   return (
     <div className='mainContainer'>
-      <div className='projectHeader'>No Way</div>
+      <div className='projectHeader'>Speedy Route</div>
 
       <div className='Maps'>
         <div className='satMap'>
         </div>
         <div className='outMap'></div>
       </div>
-
-
-
-
-
       <div className='formInput' >
         <form method='post' onSubmit={onsubmitHandler} className='formGroup'>
           <div className='sourceForm'>
@@ -64,15 +44,9 @@ const App = () => {
             <label for='destination'>Destination</label>
             <input id='destination' name='b' type='number' min={1} max={64} placeholder='Enter Destination' className='destinationInput' required ></input>
           </div>
-          <button className='formButton'>Submit</button>
+          <button className='formButton'>Find Path</button>
         </form>
       </div>
-
-
-
-
-
-
       <div className='projectDisplay'>
         {display && <Routes dataPoint={data} />}
       </div>
