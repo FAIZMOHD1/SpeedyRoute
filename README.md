@@ -14,9 +14,9 @@ This project is a web application designed to display the shortest path between 
 * Responsive and user-friendly interface.
 
 
-## Installation
 
-# Prerequisites
+
+## Prerequisites
 
 * Node.js and npm installed.
 * Python installed.
