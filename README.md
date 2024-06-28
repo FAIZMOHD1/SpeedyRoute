@@ -35,5 +35,6 @@ This project is a web application designed to display the shortest path between 
 ## Example
 
 * If you entered your starting point 2 and ending point 51 then it will show you the path with shortest distance from the sorce i.e. 2 to destination i.e. 51.
-  <img width="1440" alt="Screenshot 2024-06-29 at 12 15 24 AM" src="https://github.com/FAIZMOHD1/SpeedyRoute/assets/126939060/7f6c5022-aa5a-4cf9-a783-b5201f7203df">
+<img width="1440" alt="Screenshot 2024-06-29 at 12 18 05 AM" src="https://github.com/FAIZMOHD1/SpeedyRoute/assets/126939060/45c840de-334c-4c39-9f80-e4bef4d079d0">
+
  
