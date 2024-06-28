@@ -28,3 +28,6 @@ This project is a web application designed to display the shortest path between 
 * You will see a map of IIT Guwahati.
 * Select the start and end points on the map.
 * Click on the "Find Path" button to display the shortest path between the two points.
+
+## Frontend 
+<img width="1433" alt="Screenshot 2024-06-29 at 12 12 51 AM" src="https://github.com/FAIZMOHD1/SpeedyRoute/assets/126939060/affbb50b-b79c-45f8-a709-bcfc314afa1f">
